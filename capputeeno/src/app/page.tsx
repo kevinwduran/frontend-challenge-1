@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 export default function Home() {
-const client = new QueryClient();
+  const client = new QueryClient();
 
   return (
     <QueryClientProvider client={client}>
